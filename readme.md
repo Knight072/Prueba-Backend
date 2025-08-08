@@ -37,7 +37,7 @@ repo/
 
 ### Desarrollo
 ```bash
-mvn quarkus:dev
+mvn -pl app quarkus:dev
 ```
 
 ### Tests
