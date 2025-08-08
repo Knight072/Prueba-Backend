@@ -1,0 +1,3 @@
+2025-01-15 10:14:07,321 ERROR [io.qua.sch.run.SimpleScheduler] (SimpleScheduler) Error processing job
+java.lang.NumberFormatException: For input string: "abc"
+    at java.base/Integer.parseInt(Integer.java:614)
