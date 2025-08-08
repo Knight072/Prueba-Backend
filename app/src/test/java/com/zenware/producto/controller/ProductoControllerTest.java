@@ -8,7 +8,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
 @QuarkusTest
-class ProductoResourceTest {
+class ProductoControllerTest {
 
     @Test
     void crear_y_obtener_ok() {

@@ -28,7 +28,6 @@ public class Producto extends PanacheEntityBase {
         this.precio = precio;
     }
 
-    // Regla de dominio: impuesto 0-50%
     public void aplicarImpuesto(double porcentaje) {
         if (porcentaje < 0 || porcentaje > 50) {
             throw new IllegalArgumentException("Porcentaje fuera de rango (0-50)");
